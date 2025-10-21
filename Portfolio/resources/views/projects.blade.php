@@ -9,12 +9,13 @@
             <h1 class="mx-auto my-0 text-uppercase">
                 Projects
             </h1>
-            <h2 class=" text-white-50 mx-auto mt-2 mb-5">
-                "Fort d’expériences diverses, je mets à profit ma curiosité, ma rigueur et ma créativité pour relever des défis variés. Capable de m’adapter rapidement à de nouveaux environnements, j’allie sens du détail, logique et vision globale pour apporter des solutions efficaces et réfléchies."
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">
+                "Au fil de ma formation au Collège Maisonneuve, j’ai développé plusieurs projets en utilisant PHP, JavaScript, HTML et CSS. Ces expériences m’ont permis de renforcer mes compétences en développement web tout en explorant la logique, la structure et l’esthétique du design. Chaque projet représente pour moi une opportunité d’apprendre, d’expérimenter et de transformer des idées en solutions concrètes."
             </h2>
         </div>
     </div>
 </header>
+
 
 <!-- Projects-->
 <section class="projects-section bg-light" id="projects">
