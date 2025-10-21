@@ -19,149 +19,136 @@
 <!-- Projects-->
 <section class="projects-section bg-light" id="projects">
     <div class="container px-4 px-lg-5">
-        <!-- 
-        <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-            <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/programation.jpg" alt="..." /></div>
-            <div class="col-xl-4 col-lg-5">
-                <div class="featured-text text-center text-lg-left">
-                    <h4>La programmation web pour moi est...</h4>
-                    <p class="text-black-50 mb-0">"ma passion. J’aime transformer des idées en projets concrets, créer des interfaces utiles et logiques, et donner vie à des concepts grâce au code. Explorer, apprendre et bâtir : c’est ce qui me motive au quotidien !"</p>
-                </div>
-            </div>
-        </div> -->
 
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/autocad.jpg" alt="..." /></div>
+            <div class="col-lg-6"><img class="img-fluid" src="assets/img/projet_plantes.webp" alt="..." /></div>
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">Dessinateur Industriel</h4>
-                            <p class="mb-0 text-white-50">"Trois ans comme dessinateur industriel m’ont appris la précision, la rigueur et la logique, des qualités que j’applique aujourd’hui dans la conception web pour créer des interfaces claires et fonctionnelles."</p>
+                            <h4 class="text-white">Projet Plantes - JS vanille</h4>
+                            <p class="mb-0 text-white-50">Application e-commerce de vente de plantes développée en JavaScript vanilla. Intègre un système de panier dynamique, un filtrage par catégories, et une gestion de l'inventaire en temps réel. Interface responsive et interactive démontrant la maîtrise des fondamentaux du JavaScript.</p>
+                            <div class="mt-5">
+                                <a class="btn btn-primary" href="https://plantesjs.netlify.app/index.html" target="_blank">Voir Site</a>
+                                <hr>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row gx-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/dentist.jpg" alt="..." /></div>
-            <div class="col-lg-6 order-lg-first">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-right">
-                            <h4 class="text-white">Dentiste</h4>
-                            <p class="mb-0 text-white-50">"Six ans en tant que dentiste m’ont permis de développer patience, attention aux détails et méthode, des compétences précieuses pour concevoir des sites web intuitifs et bien structurés."</p>
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicateurs -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+                <!-- Slide 1 - Dentiste -->
+                <div class="carousel-item active">
+                    <div class="row gx-0 justify-content-center">
+                        <div class="col-lg-6">
+                            <img class="img-fluid" src="{{ asset('assets/img/projet_yoga.webp') }}" alt="page accueil projet yoga" />
+                        </div>
+                        <div class="col-lg-6 order-lg-first">
+                            <div class="bg-black text-center h-100 project">
+                                <div class="d-flex h-100">
+                                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                                        <h4 class="text-white">Projet Yoga page - accueil - Vite</h4>
+                                        <p class="mb-0 text-white-50">Page d'accueil accueillante du studio de yoga, présentant une navigation intuitive et un design épuré. Développée avec vite et css pur pour offrir une expérience utilisateur fluide et responsive sur tous les appareils.</p>
+                                        <div class="mt-5">
+                                            <a class="btn btn-primary" href="https://github.com/Daniloncc/pey2" target="_blank">Voir github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 - Exemple -->
+                <div class="carousel-item">
+                    <div class="row gx-0 justify-content-center">
+                        <div class="col-lg-6">
+                            <img class="img-fluid" src="{{ asset('assets/img/projet_yoga_2.webp') }}" alt="page cours projet yoga" />
+                        </div>
+                        <div class="col-lg-6 order-lg-first">
+                            <div class="bg-black text-center h-100 project">
+                                <div class="d-flex h-100">
+                                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                                        <h4 class="text-white">Projet Yoga page - cours - Vite</h4>
+                                        <p class="mb-0 text-white-50">Interface de gestion des cours de yoga permettant aux utilisateurs de consulter les cours, avec les infos disponibles.</p>
+                                        <div class="mt-5">
+                                            <a class="btn btn-primary" href="https://github.com/Daniloncc/pey2" target="_blank">Voir github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 - Exemple -->
+                <div class="carousel-item">
+                    <div class="row gx-0 justify-content-center">
+                        <div class="col-lg-6">
+                            <img class="img-fluid" src="{{ asset('assets/img/projet_yoga_3.webp') }}" alt="page connexion projet yoga" />
+                        </div>
+                        <div class="col-lg-6 order-lg-first">
+                            <div class="bg-black text-center h-100 project">
+                                <div class="d-flex h-100">
+                                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                                        <h4 class="text-white">Projet Yoga page - connection - Vite</h4>
+                                        <p class="mb-0 text-white-50">Système d'authentification sécurisé permettant aux membres de se connecter à leur espace personnel. Formulaire validé côté client et serveur avec gestion des sessions node.js pour garantir la sécurité des données.</p>
+                                        <div class="mt-5">
+                                            <a class="btn btn-primary" href="https://github.com/Daniloncc/pey2" target="_blank">Voir github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Contrôles Précédent/Suivant -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
         </div>
 
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/autocad.jpg" alt="..." /></div>
+            <div class="col-lg-6"><img class="img-fluid" src="assets/img/projet_stampee.webp" alt="..." /></div>
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">Dessinateur Industriel</h4>
-                            <p class="mb-0 text-white-50">"Trois ans comme dessinateur industriel m’ont appris la précision, la rigueur et la logique, des qualités que j’applique aujourd’hui dans la conception web pour créer des interfaces claires et fonctionnelles."</p>
+                            <h4 class="text-white">Projet Stampee - PHP</h4>
+                            <p class="mb-0 text-white-50">Plateforme d'enchères en ligne spécialisée dans la vente de timbres rares.
+                                Développée en PHP avec architecture MVC, elle offre un système complet de gestion
+                                d'enchères, de profils utilisateurs, de favoris et de messagerie automatisée.
+                                Interface intuitive permettant aux visiteurs de consulter les enchères et aux
+                                membres inscrits de participer activement aux ventes.</p>
+                            <div class="mt-5">
+                                <a class="btn btn-primary" href="https://stampee.infinityfree.me/" target="_blank">Voir site</a>
+                                <hr>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row gx-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/dentist.jpg" alt="..." /></div>
-            <div class="col-lg-6 order-lg-first">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-right">
-                            <h4 class="text-white">Dentiste</h4>
-                            <p class="mb-0 text-white-50">"Six ans en tant que dentiste m’ont permis de développer patience, attention aux détails et méthode, des compétences précieuses pour concevoir des sites web intuitifs et bien structurés."</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
-<!-- Signup-->
-<!-- <section class="signup-section" id="signup">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5">
-            <div class="col-md-10 col-lg-8 mx-auto text-center">
-                <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
 
-                <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-
-                    <div class="row input-group-newsletter">
-                        <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                        <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                    </div>
-                    <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                    <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-
-
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center mb-3 mt-2 text-white">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-
-                    <div class="d-none" id="submitErrorMessage">
-                        <div class="text-center text-danger mb-3 mt-2">Error sending message!</div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- Contact-->
-<!-- <section class="contact-section bg-black">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5">
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                        <h4 class="text-uppercase m-0">Address</h4>
-                        <hr class="my-4 mx-auto" />
-                        <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fas fa-envelope text-primary mb-2"></i>
-                        <h4 class="text-uppercase m-0">Email</h4>
-                        <hr class="my-4 mx-auto" />
-                        <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div class="card py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                        <h4 class="text-uppercase m-0">Phone</h4>
-                        <hr class="my-4 mx-auto" />
-                        <div class="small text-black-50">+1 (555) 902-8832</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="social d-flex justify-content-center">
-            <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-            <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-        </div>
-    </div>
-</section> -->
 @endsection('content')

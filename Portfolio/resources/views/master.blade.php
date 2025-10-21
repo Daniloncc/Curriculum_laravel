@@ -54,5 +54,24 @@
 
     @yield('lienJSValidation')
 </body>
+<style>
+    /* Personnalisation optionnelle du carrousel */
+    #projectCarousel .carousel-item {
+        transition: transform 0.6s ease-in-out;
+    }
+
+    #projectCarousel .carousel-control-prev-icon,
+    #projectCarousel .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 20px;
+    }
+
+    #projectCarousel .carousel-indicators button {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+</style>
 
 </html>
