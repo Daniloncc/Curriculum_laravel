@@ -11,7 +11,7 @@
                 "Développeur passionné, où la logique rencontre le design."
             </h2>
             <div>
-                <a class="btn btn-primary" href="#about">Mes Projets</a>
+                <a class="btn btn-primary" href="/projects">Mes Projets</a>
                 <hr>
             </div>
         </div>

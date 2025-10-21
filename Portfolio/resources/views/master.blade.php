@@ -41,8 +41,8 @@
     <!-- Footer-->
     <footer class="bg-black small text-center text-white-50">
         <div class="social-icons d-flex gap-3 justify-content-center mx-auto footer">
-            <a class="social-icon" href="#!"><i class="fab fa-linkedin-in fa-2x"></i></a>
-            <a class="social-icon" href="#!"><i class="fab fa-github fa-2x"></i></a>
+            <a class="social-icon" href="https://www.linkedin.com/in/danilo-nunes-costa-e-costa-12b451181/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            <a class="social-icon" href="https://github.com/Daniloncc" target="_blank"><i class="fab fa-github fa-2x"></i></a>
         </div>
         <div class="container px-4 px-lg-5 pb-3">Copyright &copy; Danilo Costa - Portfolio</div>
     </footer>
