@@ -9,9 +9,11 @@
             <h1 class="mx-auto my-0 text-uppercase">
                 Projects
             </h1>
+
             <h2 class="text-white-50 mx-auto mt-2 mb-5">
                 "Au fil de ma formation au Collège Maisonneuve, j’ai développé plusieurs projets en utilisant PHP, JavaScript, HTML et CSS. Ces expériences m’ont permis de renforcer mes compétences en développement web tout en explorant la logique, la structure et l’esthétique du design. Chaque projet représente pour moi une opportunité d’apprendre, d’expérimenter et de transformer des idées en solutions concrètes."
             </h2>
+
         </div>
     </div>
 </header>

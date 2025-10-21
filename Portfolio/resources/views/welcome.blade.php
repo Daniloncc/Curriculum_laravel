@@ -7,9 +7,11 @@
 
         <div class="d-flex flex-column justify-content-center text-center flex-grow-1">
             <h1 class="mx-auto my-0 text-uppercase">Danilo Costa</h1>
-            <h2 class=" text-white-50 mx-auto mt-2 mb-5">
+
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">
                 "Développeur passionné, où la logique rencontre le design."
             </h2>
+
             <div>
                 <a class="btn btn-primary" href="/projects">Mes Projets</a>
                 <hr>

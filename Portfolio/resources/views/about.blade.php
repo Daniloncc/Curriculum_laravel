@@ -9,9 +9,11 @@
             <h1 class="mx-auto my-0 text-uppercase">
                 A Propos
             </h1>
+
             <h2 class=" text-white-50 mx-auto mt-2 mb-5">
                 "Fort d’expériences diverses, je mets à profit ma curiosité, ma rigueur et ma créativité pour relever des défis variés. Capable de m’adapter rapidement à de nouveaux environnements, j’allie sens du détail, logique et vision globale pour apporter des solutions efficaces et réfléchies."
             </h2>
+
         </div>
     </div>
 </header>
