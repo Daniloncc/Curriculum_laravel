@@ -20,8 +20,8 @@
 
         <!-- BLOC COMPÉTENCES AU BOTTOM -->
         <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center mt-auto mb-3">
-            <h2 class="text-white mb-4">Mes competences</h2>
-            <ul class="d-flex flex-wrap gap-4 mt-4 justify-content-center dev-icons">
+            <h2 class="text-white mb-4">Mes competences :</h2>
+            <ul class="d-flex flex-wrap gap-4 mt-2 justify-content-center dev-icons">
                 <li class="list-inline-item text-white"><i class="fab fa-html5 fa-3x"></i></li>
                 <li class="list-inline-item text-white"><i class="fab fa-css3-alt fa-3x"></i></li>
                 <li class="list-inline-item text-white"><i class="fab fa-js-square fa-3x"></i></li>

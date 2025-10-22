@@ -130,7 +130,7 @@
         </div>
 
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="assets/img/projet_stampee.webp" alt="..." /></div>
+            <div class="col-lg-6"><img class="img-fluid" src="assets/img/projet_stampee.webp" alt="Image accueil du site" /></div>
             <div class="col-lg-6">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
